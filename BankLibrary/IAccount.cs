@@ -6,10 +6,17 @@ namespace BankLibrary
 {
     interface IAccount
     {
-        //Положить на счет
-        void Put(decimal sum);
-        //Списать со счета
-        decimal Withdrow(decimal sum);
+        /// <summary>
+        /// Положить на счет
+        /// </summary>
+        /// <param name="sum"></param>
+        void Put(double sum);
+        /// <summary>
+        /// Списать со счета
+        /// </summary>
+        /// <param name="sum"></param>
+        /// <returns></returns>
+        double Withdraw(double sum);
 
     }
 }
