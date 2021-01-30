@@ -6,7 +6,7 @@ namespace BankLibrary
 {
     public class DemandAccount : Account
     {
-        DemandAccount(double sum, double percentage) : base (sum, percentage)
+        public DemandAccount(double sum, double percentage) : base (sum, percentage)
         {
 
         }
